@@ -1,0 +1,328 @@
+.header{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.main_container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 30px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn{
+    padding: 6px 20px;
+    background: #081158;
+    border: 2px solid #081158;
+    color: #FBB244;
+    border-radius: 30px; 
+}
+.btn:hover{
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+.banner{}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.main_banner{
+    display: flex;
+}
+.left{
+    flex-basis: 40%;
+}
+.left h5{
+    display: inline-block;
+    padding: 5px 20px;
+    color: #FBB244;
+    text-transform: uppercase;
+    background-color: rgba(251, 178, 68, 0.2);
+    border-radius: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+   
+}
+.left h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #081158;
+}
+.left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color:#081158;
+}
+.right{
+    flex-basis: 60%;
+}
+.right img{
+    max-width: 100%;
+}
+.bttn{
+  padding: 15px;
+  border-radius: 30px;
+  background-color:darkblue;
+  font-size: 18px;
+  margin-top: 10px;
+  color: aliceblue;
+}
+.bttn:hover{
+    background-color:white;
+   color: black;
+    transition: 0.5s;
+}
+.bttn-2{
+    padding: 15px;
+    border-radius: 30px;
+    background-color:white;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.bttn-2:hover{
+    background-color:darkblue;
+   
+    transition: 0.5s;
+}
+.middle{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.main-middle{
+    text-align: center;
+}
+.main-middle h6{
+    display: inline-block;
+    padding: 5px 20px;
+    color: #FBB244;
+    text-transform: uppercase;
+    background-color: rgba(251, 178, 68, 0.2);
+    border-radius: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+     margin-top: 30px;
+    
+    
+}
+.main-middle h1{
+    font-weight: 700;
+    color: #081158;
+    font-size: 70px;
+    margin-top: 20px;
+}
+.main-middle p{
+    font-family: 'Open Sans', sans-serif;
+    color:#0B1B7E;
+}
+.feature{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    margin-bottom:30px;
+}
+.main_feature{
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+.main_feature p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color:#081158;
+}
+.main_feature img{
+    width: 60px;
+    height: auto;
+}
+.first::before{
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color:rgba(251, 178, 68, 0.5);
+    border-radius: 100%;
+    top: -15px;
+    right: 150px;
+}
+.second::before{
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color:rgba(251, 178, 68, 0.5);
+    border-radius: 100%;
+    top:-10px;
+    right:520px;
+}
+.third::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    right:900px;
+    background-color: rgba(251, 178, 68, 0.5);
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+.about us{
+    width: 100%;
+}
+.container{
+width: 1140px;
+margin: auto;
+}
+.picture img{
+    max-width: 100% ;
+    flex-basis: 60%;
+}
+.descript{
+    flex-basis: 40%;
+}
+.descript h6{
+    display: inline-block;
+    padding: 5px 20px;
+    color: #FBB244;
+    text-transform: uppercase;
+    background-color: rgba(251, 178, 68, 0.2);
+    border-radius: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+     margin-top: 30px;
+}
+.descript p{
+    color:navy;
+}
+.about-start{
+    display: flex;
+}
+.bttn{
+    padding: 15px;
+    border-radius: 30px;
+    background-color:darkblue;
+    font-size: 18px;
+    margin-top: 10px;
+    color: aliceblue;  
+}
+.main-service{
+    text-align: center;
+}
+.main-service p{
+    display: inline-block;
+    padding: 5px 20px;
+    color: #FBB244;
+    text-transform: uppercase;
+    background-color: rgba(251, 178, 68, 0.2);
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+     margin-top: 40px;
+}
+.main-service h1{
+    font-size: 70px;
+    font-weight: 700px;
+}
+#merket{
+    width: 100%;
+    padding: 60px 0px;
+}
+.merket_icon img{
+    width: 60px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.merket_icon{
+    position: relative;
+}
+.merket_icon::before{
+    content: " ";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(251, 178, 68, 0.5);
+    top: 2px;
+    left: 30px;
+    border-radius: 100%;
+}
+.market_main{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0px 100px;
+}
+.merket_box{
+    border: 1px solid #999;
+    display: flex;
+    margin: 0px 0px 0px 40px;
+    padding: 30px;
+    transition: .50s;
+    margin-bottom: 20px;
+}
+.merket_box:hover{
+    box-shadow: 1px 1px 7px 0px gray;
+}
+.merket_con h4{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    margin-bottom: -5px;
+}
+.merket_con p{
+    color: #999;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    width: 200px;
+}
+.test{}
+.container{}
+.main_test{
+    text-align: center;
+}
+.main_test h5{
+    display: inline-block;
+    padding: 5px 20px;
+    color: #FBB244;
+    text-transform: uppercase;
+    background-color: rgba(251, 178, 68, 0.2);
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+     margin-top: 40px;
+}
+.main_test p{
+    columns: #999;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+.main_test h1{
+    font-size: 40px;
+    font-weight: 700px;
+    font-family: "Open Sans", sans-serif;
+}
